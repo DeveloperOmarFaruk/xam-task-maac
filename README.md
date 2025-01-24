@@ -43,7 +43,7 @@
 
 
 #
-### `Admin Login`
+### `User Login`
 #
 1. Email: omarfarukcourse@gmail.com
 2. Password: 123456
