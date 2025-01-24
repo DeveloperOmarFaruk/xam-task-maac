@@ -10,8 +10,12 @@
 ![image](https://github.com/user-attachments/assets/0e25f275-a440-4135-a2a1-4e446ddd7515)
 
 
-
-
+#
+### `Project Run Command`
+#
+ 1. npm install
+ 2. npm run start
+    
 #
 ### `Technology Use`
 #
