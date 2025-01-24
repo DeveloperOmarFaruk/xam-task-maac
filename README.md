@@ -80,8 +80,9 @@
 
 
 #
-### `Stripe Payment Page`
+### `Upcoming Page`
 #
+![image](https://github.com/user-attachments/assets/ab09b7bd-240f-49ce-bf93-1717ed3be2e1)
 
 
 
