@@ -54,12 +54,13 @@
 #
 1. Home
 2. Product
-4. Cart
-6. My Packages
-7. Create Package
-12. Login
-13. Register
-15. Error 404
+3. Cart
+4. My Packages
+5. Create Package
+6. Upcoming 
+7. Login
+8. Register
+9. Error 404
 
 #
 ### `Home Page`
@@ -78,83 +79,24 @@
 #
 ![image](https://github.com/user-attachments/assets/53cda814-64d0-4861-911d-30dfd48a8fb9)
 
+#
+### `My Package Page`
+#
+![image](https://github.com/user-attachments/assets/fb387903-07aa-48b0-9752-eedf87acd64e)
+
+
+
+#
+### `Create Package Page`
+#
+
+![image](https://github.com/user-attachments/assets/45f1080b-3746-4c19-9ec8-6a1d5ec2c816)
+
 
 #
 ### `Upcoming Page`
 #
 ![image](https://github.com/user-attachments/assets/ab09b7bd-240f-49ce-bf93-1717ed3be2e1)
-
-
-
-
-#
-### `Success Page`
-#
-
-
-#
-### `My Order Page`
-#
-
-
-#
-### `Dashboard Page`
-#
-
-
-#
-### `Dashboard Users Page`
-#
-
-
-#
-### `Dashboard Admin Create`
-#
-
-#
-### `Dashboard Products Page`
-#
-
-
-#
-#
-### `Dashboard Product Details`
-#
-
-
-#
-
-#
-### `Dashboard Product Edit`
-#
-
-
-#
-
-
-#
-### `Dashboard Order Page`
-#
-
-
-#
-
-#
-### `Dashboard Order Details`
-#
-
-
-
-#
-### `Dashboard Contact Page`
-#
-
-
-#
-
-#
-### `Dashboard Contact Details`
-#
 
 
 #
