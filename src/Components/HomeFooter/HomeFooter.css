@@ -1,0 +1,79 @@
+.home-footer-div {
+  background-color: #1b283a;
+  color: var(--white);
+  border-bottom: 1px solid #545e6b;
+}
+
+.home-footer-section {
+  margin: 0rem auto;
+  max-width: 85%;
+  padding: 40px 30px 0px 30px;
+}
+
+.home-footer-payment {
+  width: 100%;
+  margin: 1.5rem auto;
+}
+
+.home-footer-payment img {
+  width: 100%;
+}
+
+.home-footer-brand-div img {
+  width: 35%;
+}
+
+.home-footer-brand-div p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 1.5rem;
+}
+
+.home-footer-address-div h5,
+.home-footer-company-div h5 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.home-footer-address-div p {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Extra small devices (phones, portrait) */
+@media (max-width: 575.98px) {
+  .home-footer-section {
+    max-width: 100%;
+    padding: 40px 20px 0px 20px;
+  }
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Styles for small devices */
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-footer-section {
+    padding: 40px 0px 0px 0px;
+  }
+  .home-footer-brand-div img {
+    width: 30%;
+  }
+}
+
+/* Landscape tablets */
+@media (min-width: 1024px) and (max-width: 1280px) {
+}
+
+/* Standard desktops */
+@media (min-width: 1281px) and (max-width: 1600px) {
+  /* Styles for desktops */
+}
+
+/* Large screens */
+@media (min-width: 1601px) {
+  /* Styles for large screens */
+}

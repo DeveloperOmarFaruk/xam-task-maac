@@ -1,0 +1,247 @@
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  background-color: var(--white);
+}
+nav .wrapper {
+  position: relative;
+  max-width: 85%;
+  padding: 0px 30px;
+  height: 70px;
+  line-height: 70px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .logo a {
+  color: var(--deep-blue);
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.wrapper .logo a img {
+  height: 50px;
+}
+.wrapper .nav-links {
+  display: inline-flex;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links li a {
+  color: #253642;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 9px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav-links .mobile-item {
+  display: none;
+}
+.nav-links .drop-menu {
+  position: absolute;
+  background: var(--white);
+  width: 180px;
+  line-height: 45px;
+  top: 85px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  padding: 10px 20px;
+}
+.nav-links li:hover .drop-menu {
+  transition: all 0.3s ease;
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.drop-menu li {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.drop-menu li a {
+  width: 100%;
+  display: block;
+  padding: 0px;
+  font-weight: 400;
+  border-radius: 0px;
+}
+
+.wrapper .btn {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.wrapper .btn.close-btn {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+.nav-link-cart {
+  position: relative;
+}
+
+.nav-link-cart span {
+  position: absolute;
+  top: -10px;
+  right: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  height: 20px;
+  font-weight: 500;
+}
+
+.nav-login {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 7px 30px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.nav-register {
+  background-color: #e0edff;
+  color: var(--gray);
+  padding: 7px 30px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper .btn {
+    display: block;
+  }
+  nav .wrapper {
+    max-width: 100%;
+    padding: 0px 10px;
+  }
+  .wrapper .nav-links {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 350px;
+    top: 0;
+    left: -100%;
+    background: #242526;
+    display: block;
+    padding: 50px 10px;
+    line-height: 50px;
+    overflow-y: auto;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
+    transition: all 0.3s ease;
+  }
+  /* custom scroll bar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #242526;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3a3b3c;
+  }
+  #menu-btn:checked ~ .nav-links {
+    left: 0%;
+  }
+  #menu-btn:checked ~ .btn.menu-btn {
+    display: none;
+  }
+  #close-btn:checked ~ .btn.menu-btn {
+    display: block;
+  }
+  .nav-links li {
+    margin: 15px 10px;
+  }
+  .nav-links li a {
+    padding: 0 20px;
+    display: block;
+    font-size: 20px;
+  }
+  .nav-links .drop-menu {
+    position: static;
+    opacity: 1;
+    top: 65px;
+    visibility: visible;
+    padding: 0px 0px;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    box-shadow: none;
+    transition: all 0.3s ease;
+  }
+  #showDrop:checked ~ .drop-menu {
+    max-height: 100%;
+  }
+
+  #showDropName:checked ~ .drop-menu {
+    max-height: 100%;
+  }
+
+  .nav-links .desktop-item {
+    display: none;
+  }
+  .nav-links .mobile-item {
+    display: block;
+    color: #f2f2f2;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .nav-links .mobile-item:hover {
+    background: #3a3b3c;
+  }
+
+  .nav-link-cart span {
+    position: absolute;
+    top: -10px;
+    right: 200px;
+    border-radius: 50%;
+    padding: 5px;
+    height: 20px;
+    font-weight: 500;
+    color: var(--white);
+  }
+
+  .drop-menu li {
+    margin: 0;
+  }
+  .drop-menu li a {
+    border-radius: 5px;
+    font-size: 14px;
+  }
+}
+
+nav input {
+  display: none;
+}
+
+.body-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  padding: 0 30px;
+}
+.body-text div {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+}

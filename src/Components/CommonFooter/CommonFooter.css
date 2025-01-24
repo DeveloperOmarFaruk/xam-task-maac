@@ -1,0 +1,70 @@
+.common-footer-div {
+  background-color: #1b283a;
+  color: var(--white);
+}
+
+.common-footer-section {
+  margin: auto;
+  width: 85%;
+  padding: 14px 30px;
+}
+
+.common-fotter-copy-right p {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--white);
+  margin: 0px;
+}
+
+.common-fotter-pages-link a {
+  text-decoration: none;
+  margin: 0px 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+/* Extra small devices (phones, portrait) */
+@media (max-width: 575.98px) {
+  .common-footer-section {
+    width: 95%;
+  }
+
+  .common-footer-section {
+    justify-content: center !important;
+  }
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .common-footer-section {
+    width: 95%;
+  }
+
+  .common-footer-section {
+    justify-content: center !important;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .common-footer-section {
+    width: 100%;
+    padding: 14px 50px;
+  }
+}
+
+/* Landscape tablets */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* Styles for tablets in landscape mode */
+}
+
+/* Standard desktops */
+@media (min-width: 1281px) and (max-width: 1600px) {
+  /* Styles for desktops */
+}
+
+/* Large screens */
+@media (min-width: 1601px) {
+  /* Styles for large screens */
+}

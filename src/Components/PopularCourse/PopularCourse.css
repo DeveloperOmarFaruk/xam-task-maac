@@ -1,0 +1,169 @@
+.popular-course-div {
+  background-color: #e5eefa;
+}
+
+.popular-course-section {
+  margin: 0rem auto;
+  padding: 60px 30px 90px 30px;
+}
+
+.popular-course-title h3 {
+  text-align: center;
+  color: #1e266d;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 2rem auto;
+}
+
+.popular-course-card {
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.popular-course-card-image {
+  position: relative;
+}
+
+.popular-course-card-image img:nth-child(1) {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.popular-course-card-image img:nth-child(2) {
+  top: 0;
+  right: 0;
+  position: absolute;
+  transform: translate(-40%, 40%);
+  width: 10%;
+}
+
+.popular-course-review-div,
+.popular-course-duration-div {
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+.popular-course-review-div p {
+  color: #74788d;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.popular-course-review-div p i {
+  color: #f1b44c;
+  font-size: 14px;
+}
+
+.popular-course-duration-div p {
+  color: #0052cc;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.popular-course-card-title h6 {
+  color: #253642;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0rem 0rem 1rem 0rem;
+}
+
+.popular-course-writing-review-div p {
+  color: #516986;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0rem 0rem 0.5rem 0rem;
+}
+
+.popular-course-writing-review-div p i {
+  color: #0052cc;
+}
+
+.popular-course-price-cart-btn-div {
+  padding: 1rem 0rem;
+  border-top: 1px solid #e1e1e1;
+  margin-top: 1rem;
+}
+
+.popular-course-price-cart-btn-div button {
+  color: var(--white);
+  background-color: #0052cc;
+  border-radius: 10px;
+  border: 1px solid #0052cc;
+  padding: 5px 15px;
+  margin-top: 0.5rem;
+}
+
+.popular-course-price-cart-btn-div p {
+  margin-bottom: 0px;
+  color: #253642;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.popular-course-price-cart-btn-div p span:nth-child(1) {
+  color: #0052cc;
+  text-decoration: line-through;
+  margin-right: 0.6rem;
+}
+
+.popular-course-all-btn-div {
+  text-align: end;
+  color: #0052cc;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+.popular-course-all-btn-div h6 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.full-star {
+  color: gold; /* Full star color */
+}
+
+.empty-star {
+  color: lightgray; /* Empty star color */
+}
+
+.rating-stars {
+  font-size: 20px;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Extra small devices (phones, portrait) */
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Styles for small devices */
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .popular-course-section {
+    padding: 60px 0px 90px 0px;
+  }
+}
+
+/* Landscape tablets */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* Styles for tablets in landscape mode */
+}
+
+/* Standard desktops */
+@media (min-width: 1281px) and (max-width: 1600px) {
+  /* Styles for desktops */
+}
+
+/* Large screens */
+@media (min-width: 1601px) {
+  /* Styles for large screens */
+}

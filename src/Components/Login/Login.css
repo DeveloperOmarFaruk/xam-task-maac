@@ -1,0 +1,175 @@
+.log-col-height {
+  height: 100vh !important;
+}
+
+.regis-col-height {
+  height: 130vh;
+}
+
+.image-section {
+  background: #0052cc;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-section img {
+  position: absolute;
+  width: 100%;
+}
+
+.account-main-left-part-shado {
+  height: 100%;
+  width: 120% !important;
+  z-index: 1;
+}
+
+.account-main-left-part-xamPicture {
+  height: 50% !important;
+  width: 85% !important;
+  bottom: 10px;
+  left: 5.5% !important;
+  z-index: 2;
+}
+.brand-logo-div {
+  height: 5rem;
+  cursor: pointer;
+}
+
+.brand-logo-div img {
+  margin-top: 10px;
+  width: 13%;
+  float: right;
+}
+
+.form-div {
+  width: 80%;
+  margin: auto;
+}
+
+.log-regis-btn-div {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.log-regis-btn-div button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.ative-blue-btn {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.form-title h4 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 56px;
+  letter-spacing: 1px;
+}
+
+.forgot-password {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.75px;
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.submit-btn button {
+  color: var(--white);
+  background-color: var(--blue);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.alternative-btn {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.75px;
+  color: var(--gray);
+}
+
+.alternative-btn span {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.social-btn {
+  display: flex;
+}
+
+.social-btn button {
+  border: 1px solid var(--light-white-gray);
+  border-radius: 10px;
+  color: var(--gray-black);
+  background-color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.social-btn button span i {
+  font-size: 18px;
+  margin-right: 0.5rem;
+}
+
+.form-control.dashed,
+.input-group-text.dashed {
+  border: 1px dashed var(--light-white-gray);
+}
+
+.input-auth-div span {
+  font-size: 12px;
+  color: red;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+/* Extra small devices (phones, portrait) */
+@media (max-width: 575.98px) {
+  .log-col-height:nth-last-child(2),
+  .regis-col-height:nth-last-child(2) {
+    display: none;
+  }
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .log-col-height:nth-last-child(2),
+  .regis-col-height:nth-last-child(2) {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for medium devices */
+}
+
+/* Landscape tablets */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* Styles for tablets in landscape mode */
+}
+
+/* Standard desktops */
+@media (min-width: 1281px) and (max-width: 1600px) {
+  /* Styles for desktops */
+}
+
+/* Large screens */
+@media (min-width: 1601px) {
+  /* Styles for large screens */
+}

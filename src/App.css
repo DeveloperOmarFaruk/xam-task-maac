@@ -1,0 +1,61 @@
+/* Sora */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap");
+
+:root {
+  --light-blue: #364a63;
+  --light-white-gray: #d0d5dd;
+  --purple: #0075ff;
+  --white: #ffffff;
+  --gray-white: #f8f8fb;
+  --deep-blue: #14142b;
+  --blue: #0052cc;
+  --gray: #4e4b66;
+  --gray-black: #191d23;
+}
+
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  box-sizing: border-box;
+  font-family: "Sora", serif;
+  background-color: var(--gray-white);
+}
+
+section {
+  margin: 5rem auto;
+  max-width: 85%;
+  padding: 0px 30px;
+  display: block;
+}
+
+/* Extra small devices (phones, portrait) */
+@media (max-width: 575.98px) {
+  section {
+    max-width: 100%;
+  }
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Styles for small devices */
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for medium devices */
+}
+
+/* Landscape tablets */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* Styles for tablets in landscape mode */
+}
+
+/* Standard desktops */
+@media (min-width: 1281px) and (max-width: 1600px) {
+  /* Styles for desktops */
+}
+
+/* Large screens */
+@media (min-width: 1601px) {
+  /* Styles for large screens */
+}

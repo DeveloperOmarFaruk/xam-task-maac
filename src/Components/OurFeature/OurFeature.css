@@ -1,0 +1,106 @@
+.our-feature-section {
+  margin: 5rem auto 0rem auto;
+  padding: 60px 30px 60px 30px;
+}
+
+.our-feature-big-card {
+  background-color: #0052cc;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  min-height: 270px;
+}
+
+.our-feature-big-card h3 {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.our-feature-big-card button {
+  color: #0052cc;
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: 1px solid var(--white);
+  margin-top: 2rem;
+  font-size: 14px;
+}
+
+.our-feature-small-card {
+  background-color: var(--white);
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  min-height: 270px;
+}
+
+.our-feature-small-card img {
+  width: 18%;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.our-feature-small-card h6 {
+  color: #0052cc;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.our-feature-small-card p:nth-last-child(2) {
+  color: #516986;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.our-feature-small-card p:nth-last-child(1) {
+  color: #253642;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 2rem 0rem 0rem 0rem;
+  text-align: end;
+  cursor: pointer;
+}
+
+/* Extra small devices (phones, portrait) */
+@media (max-width: 575.98px) {
+  .our-feature-big-card h3 {
+    font-size: 30px;
+  }
+
+  .our-feature-section {
+    margin: 0rem auto 0rem auto;
+    padding: 10px 30px 60px 30px;
+  }
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .our-feature-big-card h3 {
+    font-size: 30px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .our-feature-section {
+    padding: 10px 5px 60px 5px;
+  }
+}
+
+/* Landscape tablets */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .our-feature-section {
+    padding: 60px 5px 60px 5px;
+  }
+}
+
+/* Standard desktops */
+@media (min-width: 1281px) and (max-width: 1600px) {
+  /* Styles for desktops */
+}
+
+/* Large screens */
+@media (min-width: 1601px) {
+  /* Styles for large screens */
+}

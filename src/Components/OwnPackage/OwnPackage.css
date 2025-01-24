@@ -1,0 +1,68 @@
+.own-package-div {
+  background-color: var(--white);
+}
+
+.own-package-section {
+  margin: 0rem auto;
+  padding: 60px 30px;
+}
+.own-pcakage-image-div img {
+  width: 100%;
+}
+
+.own-package-info-div h4 {
+  color: #1e266d;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 52px;
+}
+
+.own-package-info-div p {
+  color: #516986;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 1.5rem auto;
+}
+
+.own-package-info-div button {
+  background-color: #0052cc;
+  color: var(--white);
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: 1px solid #0052cc;
+  font-size: 15px;
+}
+
+/* Extra small devices (phones, portrait) */
+@media (max-width: 575.98px) {
+  .own-package-section {
+    padding: 60px 20px;
+  }
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Styles for small devices */
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .own-package-section {
+    padding: 60px 0px;
+  }
+}
+
+/* Landscape tablets */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* Styles for tablets in landscape mode */
+}
+
+/* Standard desktops */
+@media (min-width: 1281px) and (max-width: 1600px) {
+  /* Styles for desktops */
+}
+
+/* Large screens */
+@media (min-width: 1601px) {
+  /* Styles for large screens */
+}

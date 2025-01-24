@@ -1,0 +1,34 @@
+.scrollTop-btn {
+  position: fixed;
+  width: auto;
+  left: 93%;
+  bottom: 50px;
+  height: auto;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  z-index: 1;
+  cursor: pointer;
+  color: var(--white);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.scrollTop-btn i {
+  padding: 10px 13px;
+  background-color: #0052cc;
+  border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
+  .scrollTop-btn {
+    left: 85%;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 1200px) {
+  .scrollTop-btn {
+    left: 85%;
+    font-size: 1.5rem;
+  }
+}
