@@ -23,41 +23,29 @@
 6. React Router
 7. React Router Dom
 8. React Private Route
-9. React Admin Route
-10. React Child Routes
-11. React Lists and Keys
-12. React Alert
-13. Firebase
-14. Firebase Authentication
-15. Apex Chart
-16. Stripe Payment Gateway
-17. Node JS
-18. Express JS
-19. Express Middleware
-20. Express CORS
-21. Nodemon
-22. MongoDB
-23. MongoDB Atlas
-24. Firebase Verify Token
-25. JWT Token
-26. ImgBB
-27. Font Awesome
-28. Google Fonts
-29. HTML5
-30. CSS3
-31. Bootstrap5
-32. Material UI
+9. React Lists and Keys
+10. Redux
+11. Redux Toolkit
+12. Redux Toolkit Query
+13. Authentication
+14. JWT Token
+15. Font Awesome
+16. Google Fonts
+17. HTML5
+18. CSS3
+19. Bootstrap5
+
 
 #
 ### `Project Deploy`
 #
 1. Netlify (Frontend Part)
-2. Vercel (Backend Part)
+
 
 #
 ### `Admin Login`
 #
-1. Email: admin@admin.com
+1. Email: omarfarukcourse@gmail.com
 2. Password: 123456
     
 
