@@ -54,37 +54,29 @@
 #
 1. Home
 2. Product
-3. Purchase
 4. Cart
-5. Success
-6. My Order
-7. Dashboard
-8. Dashboard Users
-9. Dashboard Products
-10. Dashboard Orders
-11. Dashboard Contact
+6. My Packages
+7. Create Package
 12. Login
 13. Register
-14. User Profile
 15. Error 404
 
 #
 ### `Home Page`
 #
+![image](https://github.com/user-attachments/assets/2dc1772e-2e6d-46d8-a76f-9209d5174733)
 
 
 #
 ### `Products Page`
 #
-
-#
-### `Purchase Page`
-#
+![image](https://github.com/user-attachments/assets/8b9ee590-597b-49d3-98fe-44cc5edbb728)
 
 
 #
 ### `Cart Page`
 #
+![image](https://github.com/user-attachments/assets/53cda814-64d0-4861-911d-30dfd48a8fb9)
 
 
 #
@@ -168,21 +160,20 @@
 
 ### `Login Page`
 #
+![image](https://github.com/user-attachments/assets/01311601-6937-4032-be10-1156c8ad4a9e)
 
 
 #
 ### `Register Page`
 #
+![image](https://github.com/user-attachments/assets/ab0d26a4-5791-4bdc-8c67-f10a5e19259b)
 
-
-#
-### `User Profile Page`
-#
 
 
 #
 ### `Error 404`
 #
+![image](https://github.com/user-attachments/assets/491a9e65-7d54-4529-b0cd-f81517a59602)
 
 
 #
