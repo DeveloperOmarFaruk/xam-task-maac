@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# Here is some UI and work shown in this repository
+#
+[Live Preview Project](https://xam-task-maac.netlify.app)
+#
+## Project Details
+#
+![image](https://github.com/user-attachments/assets/27857cba-db65-41b9-97f8-4b3bc47ebd1c)
+![image](https://github.com/user-attachments/assets/8989f1a0-de83-469d-abb7-d5e71f3114ee)
+![image](https://github.com/user-attachments/assets/4bd1a5cc-6601-4925-b17b-6841f2d74057)
+![image](https://github.com/user-attachments/assets/0e25f275-a440-4135-a2a1-4e446ddd7515)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+#
+### `Technology Use`
+#
+1. React JS
+2. React Hooks
+3. Event Handlers
+4. Arrow Functions
+5. Axios RESTful API
+6. React Router
+7. React Router Dom
+8. React Private Route
+9. React Lists and Keys
+10. Redux
+11. Redux Toolkit
+12. Redux Toolkit Query
+13. Authentication
+14. JWT Token
+15. Font Awesome
+16. Google Fonts
+17. HTML5
+18. CSS3
+19. Bootstrap5
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#
+### `Project Deploy`
+#
+1. Netlify (Frontend Part)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#
+### `User Login`
+#
+1. Email: omarfarukcourse@gmail.com
+2. Password: 123456
+    
 
-### `npm run build`
+#
+### `Project Pages`
+#
+1. Home
+2. Product
+3. Cart
+4. My Packages
+5. Create Package
+6. Upcoming 
+7. Login
+8. Register
+9. Error 404
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#
+### `Home Page`
+#
+![image](https://github.com/user-attachments/assets/2dc1772e-2e6d-46d8-a76f-9209d5174733)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#
+### `Products Page`
+#
+![image](https://github.com/user-attachments/assets/8b9ee590-597b-49d3-98fe-44cc5edbb728)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#
+### `Cart Page`
+#
+![image](https://github.com/user-attachments/assets/53cda814-64d0-4861-911d-30dfd48a8fb9)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#
+### `My Package Page`
+#
+![image](https://github.com/user-attachments/assets/fb387903-07aa-48b0-9752-eedf87acd64e)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+#
+### `Create Package Page`
+#
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/user-attachments/assets/45f1080b-3746-4c19-9ec8-6a1d5ec2c816)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+#
+### `Upcoming Page`
+#
+![image](https://github.com/user-attachments/assets/ab09b7bd-240f-49ce-bf93-1717ed3be2e1)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+#
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `Login Page`
+#
+![image](https://github.com/user-attachments/assets/01311601-6937-4032-be10-1156c8ad4a9e)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#
+### `Register Page`
+#
+![image](https://github.com/user-attachments/assets/ab0d26a4-5791-4bdc-8c67-f10a5e19259b)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+#
+### `Error 404`
+#
+![image](https://github.com/user-attachments/assets/491a9e65-7d54-4529-b0cd-f81517a59602)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#
