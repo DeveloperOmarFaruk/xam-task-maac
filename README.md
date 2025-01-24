@@ -1,70 +1,200 @@
-# Getting Started with Create React App
+# Here is some UI and work shown in this repository
+#
+[Live Preview Project](https://xam-task-maac.netlify.app)
+#
+## Project Details
+#
+![image](https://github.com/user-attachments/assets/27857cba-db65-41b9-97f8-4b3bc47ebd1c)
+![image](https://github.com/user-attachments/assets/8989f1a0-de83-469d-abb7-d5e71f3114ee)
+![image](https://github.com/user-attachments/assets/4bd1a5cc-6601-4925-b17b-6841f2d74057)
+![image](https://github.com/user-attachments/assets/0e25f275-a440-4135-a2a1-4e446ddd7515)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+#
+### `Technology Use`
+#
+1. React JS
+2. React Hooks
+3. Event Handlers
+4. Arrow Functions
+5. Axios RESTful API
+6. React Router
+7. React Router Dom
+8. React Private Route
+9. React Admin Route
+10. React Child Routes
+11. React Lists and Keys
+12. React Alert
+13. Firebase
+14. Firebase Authentication
+15. Apex Chart
+16. Stripe Payment Gateway
+17. Node JS
+18. Express JS
+19. Express Middleware
+20. Express CORS
+21. Nodemon
+22. MongoDB
+23. MongoDB Atlas
+24. Firebase Verify Token
+25. JWT Token
+26. ImgBB
+27. Font Awesome
+28. Google Fonts
+29. HTML5
+30. CSS3
+31. Bootstrap5
+32. Material UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#
+### `Project Deploy`
+#
+1. Netlify (Frontend Part)
+2. Vercel (Backend Part)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#
+### `Admin Login`
+#
+1. Email: admin@admin.com
+2. Password: 123456
+    
 
-### `npm test`
+#
+### `Project Pages`
+#
+1. Home
+2. Product
+3. Purchase
+4. Cart
+5. Success
+6. My Order
+7. Dashboard
+8. Dashboard Users
+9. Dashboard Products
+10. Dashboard Orders
+11. Dashboard Contact
+12. Login
+13. Register
+14. User Profile
+15. Error 404
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#
+### `Home Page`
+#
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#
+### `Products Page`
+#
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#
+### `Purchase Page`
+#
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#
+### `Cart Page`
+#
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#
+### `Stripe Payment Page`
+#
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#
+### `Success Page`
+#
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+#
+### `My Order Page`
+#
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+#
+### `Dashboard Page`
+#
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+#
+### `Dashboard Users Page`
+#
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+#
+### `Dashboard Admin Create`
+#
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#
+### `Dashboard Products Page`
+#
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#
+#
+### `Dashboard Product Details`
+#
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#
+
+#
+### `Dashboard Product Edit`
+#
+
+
+#
+
+
+#
+### `Dashboard Order Page`
+#
+
+
+#
+
+#
+### `Dashboard Order Details`
+#
+
+
+
+#
+### `Dashboard Contact Page`
+#
+
+
+#
+
+#
+### `Dashboard Contact Details`
+#
+
+
+#
+
+### `Login Page`
+#
+
+
+#
+### `Register Page`
+#
+
+
+#
+### `User Profile Page`
+#
+
+
+#
+### `Error 404`
+#
+
+
+#
