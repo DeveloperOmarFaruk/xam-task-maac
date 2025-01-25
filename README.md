@@ -51,6 +51,7 @@
 #
 1. Email: omarfarukcourse@gmail.com
 2. Password: 123456
+3. Coupon Code: Xampro100
     
 
 #
