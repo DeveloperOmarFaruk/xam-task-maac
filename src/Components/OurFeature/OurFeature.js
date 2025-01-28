@@ -6,6 +6,38 @@ import icon3 from "../../assets/checkPerformance.png";
 import icon4 from "../../assets/review.png";
 
 const OurFeature = () => {
+  // Data array for feature cards
+  const features = [
+    {
+      id: 1,
+      icon: icon1,
+      title: "Full exam packages",
+      description:
+        "IELTS general & academic Speaking, reading, writing full mock module",
+    },
+    {
+      id: 2,
+      icon: icon2,
+      title: "Instant Result",
+      description:
+        "IELTS general & academic Speaking, reading, writing full mock module",
+    },
+    {
+      id: 3,
+      icon: icon3,
+      title: "Check Performance",
+      description:
+        "IELTS general & academic Speaking, reading, writing full mock module",
+    },
+    {
+      id: 4,
+      icon: icon4,
+      title: "Facilitator Review",
+      description:
+        "IELTS general & academic Speaking, reading, writing full mock module",
+    },
+  ];
+
   return (
     <>
       <section className="our-feature-section">
@@ -22,72 +54,22 @@ const OurFeature = () => {
               <button>See Features</button>
             </div>
           </div>
-
-          {/* Small card section for the first feature */}
-          <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-3 mb-3">
-            <div className="our-feature-small-card">
-              <img src={icon1} alt="icon" /> {/* Icon for feature */}
-              <h6>Full exam packages</h6> {/* Title for the feature */}
-              <p>
-                IELTS general & academic Speaking, reading, writing full mock
-                module
-              </p>
-              {/* Link to see more about this feature */}
-              <p>
-                More <i className="fa-solid fa-arrow-right ms-2"></i>
-              </p>
+          {/* Small card section for the feature */}
+          {features.map((feature) => (
+            <div
+              key={feature.id}
+              className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-3 mb-3"
+            >
+              <div className="our-feature-small-card">
+                <img src={feature.icon} alt="icon" /> {/* Icon for feature */}
+                <h6>{feature.title}</h6> {/* Title for the feature */}
+                <p>{feature.description}</p> {/* Description for the feature */}
+                <p>
+                  More <i className="fa-solid fa-arrow-right ms-2"></i>
+                </p>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div className="row">
-          {/* Small card section for the second feature */}
-          <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-3 mb-3">
-            <div className="our-feature-small-card">
-              <img src={icon2} alt="icon" /> {/* Icon for feature */}
-              <h6>Instant Result</h6> {/* Title for the feature */}
-              <p>
-                IELTS general & academic Speaking, reading, writing full mock
-                module
-              </p>
-              {/* Link to see more about this feature */}
-              <p>
-                More <i className="fa-solid fa-arrow-right ms-2"></i>
-              </p>
-            </div>
-          </div>
-
-          {/* Small card section for the third feature */}
-          <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-3 mb-3">
-            <div className="our-feature-small-card">
-              <img src={icon3} alt="icon" /> {/* Icon for feature */}
-              <h6>Check Performance</h6> {/* Title for the feature */}
-              <p>
-                IELTS general & academic Speaking, reading, writing full mock
-                module
-              </p>
-              {/* Link to see more about this feature */}
-              <p>
-                More <i className="fa-solid fa-arrow-right ms-2"></i>
-              </p>
-            </div>
-          </div>
-
-          {/* Small card section for the fourth feature */}
-          <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-3 mb-3">
-            <div className="our-feature-small-card">
-              <img src={icon4} alt="icon" /> {/* Icon for feature */}
-              <h6>Facilitator Review</h6> {/* Title for the feature */}
-              <p>
-                IELTS general & academic Speaking, reading, writing full mock
-                module
-              </p>
-              {/* Link to see more about this feature */}
-              <p>
-                More <i className="fa-solid fa-arrow-right ms-2"></i>
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
       </section>
     </>

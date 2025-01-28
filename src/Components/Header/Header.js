@@ -17,6 +17,13 @@ const Header = () => {
     setIsModalOpen(false);
   };
 
+  // Data array for statistics
+  const statistics = [
+    { id: 1, count: "60 +", description: "Packages available" },
+    { id: 2, count: "50 +", description: "Students Joined" },
+    { id: 3, count: "20 +", description: "Expert Facilitators" },
+  ];
+
   return (
     <>
       <div className="home-header-root-div">
@@ -39,8 +46,11 @@ const Header = () => {
 
                   {/* Buttons for user actions */}
                   <div className="header-button-div">
-                    <button>Start Free Pack</button>
-                    <button className="header-video-btn" onClick={openModal}>
+                    <button className="mt-2">Start Free Pack</button>
+                    <button
+                      className="header-video-btn mt-2"
+                      onClick={openModal}
+                    >
                       {/* Video icon button to open the modal */}
                       <img src={videoIcon} alt="videoIcon" />
                       <span> See how it's work</span>
@@ -86,29 +96,17 @@ const Header = () => {
         <div className="header-counter-div">
           <section className="header-counter-section">
             <div className="row header-counter-row">
-              {/* Column for the first statistic */}
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-sx-12 mt-3 mb-3 p-4">
-                <div className="header-counter-info-div">
-                  <h2>60 +</h2>
-                  <p>Packages available</p>
+              {statistics.map((stat) => (
+                <div
+                  key={stat.id}
+                  className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-sx-12 mt-3 mb-3 p-4"
+                >
+                  <div className="header-counter-info-div">
+                    <h2>{stat.count}</h2>
+                    <p>{stat.description}</p>
+                  </div>
                 </div>
-              </div>
-
-              {/* Column for the second statistic */}
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-sx-12 mt-3 mb-3 p-4 header-counter-middle-col">
-                <div className="header-counter-info-div">
-                  <h2>50 +</h2>
-                  <p>Students Joined</p>
-                </div>
-              </div>
-
-              {/* Column for the third statistic */}
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-sx-12 mt-3 mb-3 p-4">
-                <div className="header-counter-info-div">
-                  <h2>20 +</h2>
-                  <p>Expert Facilitators</p>
-                </div>
-              </div>
+              ))}
             </div>
           </section>
         </div>

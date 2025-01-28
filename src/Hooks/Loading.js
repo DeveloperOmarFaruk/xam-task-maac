@@ -6,7 +6,7 @@ const Loading = () => {
       {/* Wrapper div for centering the spinner and loading text */}
       <div style={{ padding: "12rem 0rem" }}>
         {/* Row to align the spinner at the center */}
-        <div className="row">
+        <div className="row w-100">
           {/* Empty columns to center the content horizontally */}
           <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
 

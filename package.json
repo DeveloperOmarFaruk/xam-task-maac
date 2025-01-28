@@ -8,6 +8,7 @@
     "@reduxjs/toolkit": "^2.5.0",
     "axios": "^1.7.9",
     "cra-template": "1.2.0",
+    "gsap": "^3.12.7",
     "react": "^19.0.0",
     "react-alert": "^7.0.3",
     "react-alert-template-basic": "^1.0.2",
