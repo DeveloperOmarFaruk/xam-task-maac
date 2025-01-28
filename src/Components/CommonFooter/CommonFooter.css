@@ -27,18 +27,22 @@
 /* Extra small devices (phones, portrait) */
 @media (max-width: 575.98px) {
   .common-footer-section {
-    width: 95%;
+    width: 100%;
   }
 
   .common-footer-section {
     justify-content: center !important;
+  }
+
+  .common-fotter-pages-link a {
+    font-size: 10px;
   }
 }
 
 /* Small devices (landscape phones) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .common-footer-section {
-    width: 95%;
+    width: 100%;
   }
 
   .common-footer-section {
